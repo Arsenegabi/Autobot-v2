@@ -24,7 +24,7 @@ module.exports.handleEvent = async function ({ api, event }) {
 
      const question = args.join(" ");
      if (!question) {
-       api.sendMessage("please provide your question", event.threadID, event.messageID);
+       api.sendMessage("🅟🅞🅢🅔🅡 🅜🅞🅘 🅤🅝🅔 🅠🅤🅔🅢🅣🅘🅞🅝", event.threadID, event.messageID);
        return;
      }
 
